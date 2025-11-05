@@ -1,0 +1,177 @@
+/* ----- Modal Wrapper ----- */
+.modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6); /* затемнение */
+  z-index: 1000;
+}
+
+/* ----- Modal Content ----- */
+.modal__content {
+  position: relative;
+  background: #fffdf5;
+  border-radius: 16px;
+  padding: 40px 30px;
+  width: 100%;
+  max-width: 500px;
+  z-index: 1001; /* выше затемнения */
+  color: #0b3d2e;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.modal__title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #0b3d2e;
+}
+
+/* ----- Form ----- */
+.review-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.review-form__input,
+.review-form__textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 2px solid #0b3d2e;
+  font-size: 16px;
+  font-family: inherit;
+  outline: none;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.review-form__textarea {
+  min-height: 140px;
+  line-height: 1.4;
+}
+
+.review-form__textarea::placeholder,
+.review-form__input::placeholder {
+  color: #666;
+}
+
+.review-form__input:focus,
+.review-form__textarea:focus {
+  border-color: #ffd43b;
+  box-shadow: 0 0 0 2px rgba(255, 212, 59, 0.3);
+}
+
+/* ----- Stars ----- */
+.review-form__stars {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 30px;
+}
+
+.review-form__star {
+  transition: color 0.2s ease;
+  cursor: pointer;
+}
+
+.review-form__star--active {
+  color: #ffd43b;
+}
+
+.review-form__star--inactive {
+  color: #ccc;
+}
+
+/* ----- Buttons ----- */
+.review-form__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.review-form__button {
+  padding: 12px 28px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+/* Cancel */
+.review-form__button--cancel {
+  background: #0b3d2e;
+  color: #fff;
+}
+.review-form__button--cancel:hover {
+  background: #124f3e;
+}
+
+/* Submit */
+.review-form__button--submit {
+  background: #ffd43b;
+  color: #0b3d2e;
+}
+.review-form__button--submit:hover {
+  background: #e6c53e;
+}
+
+/* ----- Media Queries ----- */
+@media (max-width: 1024px) {
+  .modal__content {
+    max-width: 460px;
+    padding: 32px 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal__content {
+    max-width: 400px;
+    padding: 25px 20px;
+  }
+
+  .review-form__input,
+  .review-form__textarea {
+    font-size: 15px;
+  }
+
+  .review-form__button {
+    font-size: 15px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal__content {
+    max-width: 90%;
+    padding: 20px 15px;
+    border-radius: 12px;
+  }
+
+  .review-form__input,
+  .review-form__textarea {
+    font-size: 14px;
+  }
+
+  .review-form__textarea {
+    min-height: 120px;
+  }
+
+  .review-form__buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .review-form__button {
+    font-size: 15px;
+    padding: 12px;
+    width: 100%;
+  }
+}

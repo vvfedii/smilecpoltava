@@ -1,0 +1,15 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-label="Мама і Малюк">
+  <!-- Фон-бейдж -->
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#feda36"/>
+  <!-- Мама (больше) -->
+  <g fill="none" stroke="#256030" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="24" cy="26" r="6"/> <!-- голова -->
+    <path d="M16 44c3-5 13-5 16 0"/> <!-- плечи -->
+  </g>
+  <!-- Малюк (меньше, справа) -->
+  <g fill="none" stroke="#256030" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="40" cy="29" r="4"/> <!-- голова ребёнка -->
+    <path d="M34 44c2-4 10-4 12 0"/> <!-- плечи ребёнка -->
+  </g>
+  <title>Мама і Малюк</title>
+</svg>

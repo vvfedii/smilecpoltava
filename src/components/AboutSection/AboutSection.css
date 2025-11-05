@@ -1,0 +1,133 @@
+/* ===== Секция Про нас ===== */
+.about {
+  background: #fff;
+}
+
+
+
+.about__content {
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+.about__club {
+  flex: 1;
+}
+
+.about__club-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #256030;
+  margin-bottom: 20px;
+}
+
+.about__club-text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+/* ===== Баннер внутри "Про нас" ===== */
+.about__banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  background: #feda36; /* жёлтый фон */
+  border-radius: 16px;
+  padding: 20px;
+}
+.about__banner-box {
+    display: flex;
+}
+.about__banner-img {
+  width: 245px;
+}
+
+.about__banner-text {
+  font-size: 20px;
+  font-weight: 600;
+  color: #256030;
+  line-height: 1.4;
+  text-align: center;
+}
+
+/* ===== Колонка методик ===== */
+.about__methods {
+  flex: 1;
+}
+
+.about__methods-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #256030;
+  margin-bottom: 24px;
+}
+
+.about__methods-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about__methods-item {
+  display: flex;
+  gap: 16px;
+}
+
+.about__methods-num {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #feda36; /* жёлтый */
+  color: #256030; /* зелёный */
+  font-weight: 700;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.about__methods-content {
+ display: flex;
+ flex-direction: column;
+}
+
+.about__methods-subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #256030;
+  margin-bottom: 6px;
+}
+
+.about__methods-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* ===== Адаптив ===== */
+@media (max-width: 992px) {
+  .about__content {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .about__banner-img {
+    width: 150px;
+  }
+
+  .about__methods-title, .about__club-title, .about__club-text {
+    text-align: center;
+  }
+
+  /* .about__banner-text {
+    font-size: 16px; 
+  } */
+}

@@ -1,0 +1,58 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+/* Ссылки */
+.nav__links {
+  display: flex;
+  gap: 8px;
+}
+
+.nav__link {
+  padding: 12px 18px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+}
+
+.nav__link.active,
+.nav__link:hover {
+  background-color: #256030;
+  color: #fff;
+}
+
+/* ===== Бургер ===== */
+.burger {
+  display: none;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* ===== Мобильная адаптация ===== */
+@media (max-width: 768px) {
+  .burger {
+    display: block;
+  }
+
+  .nav__links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #fff;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+
+  .nav__links.show {
+    display: flex;
+  }
+}

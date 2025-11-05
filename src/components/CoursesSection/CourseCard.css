@@ -1,0 +1,57 @@
+.card {
+  background: #fffbea; /* нежно-жёлтый фон */
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.card img {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 1rem;
+}
+
+.card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+  color: #256030;
+}
+
+.card__description {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  flex: 1;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.card__more {
+  align-self: flex-start;
+  padding: 0.5rem 1rem;
+  background: #256030; /* тёмно-зелёный */
+  color: #fff;         /* белый текст */
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.card__more:hover {
+  background: #2f7540; /* чуть светлее зелёный при наведении */
+  transform: translateY(-2px);
+}

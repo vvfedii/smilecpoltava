@@ -1,0 +1,88 @@
+
+
+.contacts {
+  background-color: #0b3d2e; /* тёмно-зелёный фон */
+  padding: 60px 0;
+  color: #fff;
+}
+
+.contacts__title {
+  margin-bottom: 0;
+  color: #FFD43B; /* жёлтый */
+  text-align: left;
+}
+
+.contacts__content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+}
+
+.contacts__address {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.contacts__number,
+.contacts__link {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px; /* отступ между иконкой и текстом */
+  margin-bottom: 15px; /* расстояние между соцсетями */
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
+  text-decoration: none;
+}
+
+.contacts__link:hover {
+  color: #FFD43B;
+}
+
+.contacts__social {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts__social-name {
+  font-weight: 600;
+  margin-bottom: 4px; /* отступ между "Facebook:" и ссылкой */
+}
+
+.contacts__social-link {
+  font-size: 14px;
+  word-break: break-word; /* перенос длинных ссылок */
+}
+
+.contacts__map {
+  flex: 1;
+  min-height: 300px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.contacts__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+/* адаптив */
+@media (max-width: 768px) {
+  .contacts__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacts__title, .contacts__address {
+    text-align: center;
+  }
+
+  .contacts__map {
+    width: 100%;
+    height: 250px;
+  }
+}

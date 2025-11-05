@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="512" height="512" role="img" aria-labelledby="title desc">
+  <title>Иконка курса «Адаптаційна група»</title>
+  <desc>Жёлтый скруглённый квадрат с зелёными мордочками взрослого и ребёнка.</desc>
+
+  <!-- Background -->
+  <rect x="8" y="8" width="112" height="112" rx="16" ry="16" fill="#F8D548"/>
+
+  <!-- Faces group -->
+  <g stroke="#166534" fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Big face (adult) -->
+    <circle cx="78" cy="64" r="18" stroke="#166534" fill="none"/>
+    <!-- Smile adult -->
+    <path d="M68 68 q10 10 20 0"/>
+    <!-- Eyes adult -->
+    <circle cx="72" cy="60" r="2.5" fill="#166534" stroke="none"/>
+    <circle cx="84" cy="60" r="2.5" fill="#166534" stroke="none"/>
+
+    <!-- Small face (child) -->
+    <circle cx="44" cy="74" r="12" stroke="#166534" fill="none"/>
+    <!-- Smile child -->
+    <path d="M38 76 q6 6 12 0"/>
+    <!-- Eyes child -->
+    <circle cx="40" cy="70" r="2" fill="#166534" stroke="none"/>
+    <circle cx="48" cy="70" r="2" fill="#166534" stroke="none"/>
+  </g>
+</svg>

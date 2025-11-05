@@ -1,0 +1,17 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-label="Календар">
+  <!-- Фон-бейдж -->
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#feda36"/>
+  <!-- Иконка календаря -->
+  <g fill="none" stroke="#256030" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Корпус -->
+    <rect x="18" y="22" width="28" height="24" rx="5"/>
+    <!-- Верхняя планка -->
+    <path d="M18 29h28"/>
+    <!-- Крепления -->
+    <path d="M24 18v8M40 18v8"/>
+    <!-- Ячейки дат -->
+    <path d="M22 35h6M30 35h6M38 35h6"/>
+    <path d="M22 41h6M30 41h6M38 41h6"/>
+  </g>
+  <title>Календар</title>
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="512" height="512" role="img" aria-labelledby="title desc">
+  <title>Иконка курса «Садок»</title>
+  <desc>Жёлтый скруглённый квадрат с зелёным домиком и деревцем.</desc>
+
+  <!-- Background -->
+  <rect x="8" y="8" width="112" height="112" rx="16" ry="16" fill="#F8D548"/>
+
+  <!-- House -->
+  <g fill="none" stroke="#166534" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
+    <!-- Roof -->
+    <path d="M38 60 L64 40 L90 60"/>
+    <!-- House body -->
+    <rect x="44" y="60" width="40" height="30" rx="4" ry="4"/>
+    <!-- Door -->
+    <rect x="58" y="70" width="12" height="20" rx="2" ry="2" fill="#166534" stroke="#166534"/>
+    <!-- Chimney -->
+    <path d="M76 48 v8"/>
+  </g>
+
+  <!-- Tree -->
+  <g stroke="#166534" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
+    <!-- trunk -->
+    <path d="M32 74 v16" fill="none"/>
+    <!-- canopy -->
+    <path d="M24 70 a10 10 0 1 0 16 0 a10 10 0 1 0 -16 0" fill="#166534" stroke="#166534"/>
+  </g>
+</svg>

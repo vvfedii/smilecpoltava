@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="512" height="512" role="img" aria-labelledby="title desc">
+  <title>Иконка курса «Англійська мова»</title>
+  <desc>Жёлтый скруглённый квадрат с зелёным облачком речи и буквами ABC внутри.</desc>
+
+  <!-- Background -->
+  <rect x="8" y="8" width="112" height="112" rx="16" ry="16" fill="#F8D548"/>
+
+  <!-- Speech bubble -->
+  <g stroke="#166534" fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 44h48c6 0 10 4 10 10v24c0 6-4 10-10 10H56l-10 8v-8H40c-6 0-10-4-10-10V54c0-6 4-10 10-10z"/>
+  </g>
+
+  <!-- Letters "ABC" -->
+  <text x="44" y="68" font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="#166534">ABC</text>
+</svg>

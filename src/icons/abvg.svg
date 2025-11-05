@@ -1,0 +1,15 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-label="АБВГД">
+  <!-- Фон-бейдж -->
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#feda36"/>
+  <!-- Текстовые буквы -->
+  <g fill="#256030" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">
+    <!-- Верхний ряд -->
+    <text x="24" y="26" font-size="14">А</text>
+    <text x="40" y="26" font-size="14">Б</text>
+    <!-- Нижний ряд -->
+    <text x="20" y="44" font-size="14">В</text>
+    <text x="32" y="44" font-size="14">Г</text>
+    <text x="44" y="44" font-size="14">Д</text>
+  </g>
+  <title>АБВГД</title>
+</svg>

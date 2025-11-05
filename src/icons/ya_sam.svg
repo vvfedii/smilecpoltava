@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-label="Малюк">
+  <!-- Фон-бейдж -->
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#feda36"/>
+  <!-- Малюк -->
+  <g fill="none" stroke="#256030" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="32" cy="26" r="6"/> <!-- голова -->
+    <path d="M24 44c3-5 13-5 16 0"/> <!-- плечи -->
+  </g>
+  <title>Малюк</title>
+</svg>

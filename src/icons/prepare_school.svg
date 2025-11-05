@@ -1,0 +1,11 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-label="Карандаш">
+  <!-- Фон-бейдж -->
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#feda36"/>
+  <!-- Карандаш -->
+  <g fill="none" stroke="#256030" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 42l6.5-1.3L45 24.2c.8-.8.8-2 0-2.8l-2.4-2.4c-.8-.8-2-.8-2.8 0L23.3 35.5 22 42z"/>
+    <path d="M39.5 21.5l3 3"/>
+    <path d="M24.8 38.8l3 3"/>
+  </g>
+  <title>Карандаш</title>
+</svg>

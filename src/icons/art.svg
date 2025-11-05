@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="512" height="512" role="img" aria-labelledby="title desc">
+  <title>Иконка курса «Художня студія «Давайте малювати»»</title>
+  <desc>Жёлтый скруглённый квадрат с классической овальной палитрой художника и пятнами краски.</desc>
+
+  <!-- Background -->
+  <rect x="8" y="8" width="112" height="112" rx="16" ry="16" fill="#F8D548"/>
+
+  <!-- Classic palette -->
+  <g stroke="#166534" fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Основная форма палитры с вырезом -->
+    <path d="M84 92c12 0 20-8 20-20 0-18-18-32-40-32s-40 14-40 32c0 12 8 20 20 20h6c3 0 6 3 6 6s-3 6-6 6h-2"/>
+    <!-- Вырез для пальца -->
+    <circle cx="82" cy="84" r="6" fill="#F8D548" stroke="#166534"/>
+    <!-- "Краски" кружки -->
+    <circle cx="62" cy="58" r="3" fill="#166534" stroke="none"/>
+    <circle cx="74" cy="62" r="3" fill="#166534" stroke="none"/>
+    <circle cx="68" cy="74" r="3" fill="#166534" stroke="none"/>
+    <circle cx="54" cy="70" r="3" fill="#166534" stroke="none"/>
+  </g>
+</svg>

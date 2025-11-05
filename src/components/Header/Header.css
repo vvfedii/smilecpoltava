@@ -1,0 +1,18 @@
+header {
+    background-color: #FFF;
+    height: 64px;
+}
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.logo{
+    width: 64px;
+    height: 64px;
+}
