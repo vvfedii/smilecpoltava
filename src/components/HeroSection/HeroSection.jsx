@@ -11,7 +11,7 @@ export default function HeroSection() {
           <p className="hero__text">
             Теплий простір для рохвитку творчості та дружби дітей 2 - 7р.
           </p>
-          {/* <button className="hero__btn btn">Записатися на пробне</button> */}
+          <button className="hero__btn btn">Записатися на пробне</button>
         </div>
         <div className="hero__img-box">
           <img className="hero__img" src={girl} alt="" />
